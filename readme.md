@@ -8,5 +8,4 @@ To use the CLI run the following command:
 
 ```sh
 npx elvisbio
-
 ```
