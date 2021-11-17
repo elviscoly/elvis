@@ -12,5 +12,13 @@
     "Elvis Iria",
     "Elvis",
     "Iria"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "elviscoly/elvisbio",
+  "author": {
+    "name": "Elvis Iria",
+    "email": "elviscoly2017@gmail.com",
+    "url": "https://twitter.com/elviscoly"
+  }
 }
