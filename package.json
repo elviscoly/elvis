@@ -1,6 +1,6 @@
 {
   "name": "elvisbio",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Get to know Elvis via npx elvisbio",
   "bin": {
     "elvis": "index.js"
