@@ -1,5 +1,5 @@
 {
-  "name": "elvis",
+  "name": "elvisbio",
   "version": "1.0.0",
   "bin": {
     "elvis": "index.js"
