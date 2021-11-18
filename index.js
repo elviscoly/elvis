@@ -5,6 +5,11 @@ const pkgJSON = require('./package.json');
 const chalk = require('chalk');
 
 const log = console.log;
+const dim = chalk.dim;
+const italic = chalk.italic;
+const green = chalk.green;
+const twitterClr = chalk.hex(`#1da1f2`).bold.inverse;
+const gitHubClr = chalk.hex(`#6cc644`).bold.inverse;
 
 welcome({
   title: `Elvis Iria`,
@@ -20,9 +25,9 @@ welcome({
 
 log(`
 
-${chalk.green(`Software Engineer at M-rinternational`)}
+${green(`Software Engineer at M-rinternational`)}
 
-${chalk.italic(`
+${italic(`
   About: I'm a software developer. As you'll see, 
   I have six years plus of hands-on experience in efficiently 
   coding web application and mobile applications using modern HTML5, 
@@ -31,7 +36,7 @@ ${chalk.italic(`
   Also specialize using MongoDB, SQL and MYSQL
 `)}
 
-${chalk.hex(`#1da1f2`).bold.inverse(` Twitter `)}: ${chalk.dim(`https://twitter.com/elviscoly`)}
-${chalk.hex(`#6cc644`).bold.inverse(` GitHub `)}: ${chalk.dim(`https://github.com/elviscoly`)}
+${twitterClr(` Twitter `)}: ${dim(`https://twitter.com/elviscoly`)}
+${gitHubClr(` GitHub `)}: ${dim(`https://github.com/elviscoly`)}
 
 `);
